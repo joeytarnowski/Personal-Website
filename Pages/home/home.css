@@ -1,0 +1,67 @@
+
+#image-track > .image-container {
+    width: 40vmin;
+    height: 56vmin;
+    position: relative;
+    display: inline;
+}
+
+#image-track > .image-container > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.2s ease-in-out;
+}
+.image:hover{
+    filter: brightness(50%);
+  }
+
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    padding: 8px;
+    font-size: 26px;
+    display: none;
+    animation: fadeIn .2s;
+    pointer-events: none;
+}
+.image-container:hover .text-overlay {
+    display: block;
+}
+
+#socials {
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-size: 16px;
+}
+#socials > .social{
+    margin: 0.5rem;
+
+}
+
+.social-link {
+    color:white; 
+    text-decoration:none;
+}
