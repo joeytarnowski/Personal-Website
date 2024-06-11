@@ -15,3 +15,36 @@ body {
     font-weight: lighter;
     text-align: center;
 }
+.subtitle {
+    color: white;
+    font-size: 32px;
+    font-family: 'Tahoma';
+    font-weight: lighter;
+    text-align: center;
+}
+.headerbox{
+    width:100%;
+}
+
+.div {
+    font-family: 'Tahoma';
+}
+
+#socials {
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-size: 16px;
+    font-family: 'Tahoma';
+}
+#socials > .social{
+    margin: 0.5rem;
+
+}
+
+.social-link {
+    color:white; 
+    text-decoration:none;
+}

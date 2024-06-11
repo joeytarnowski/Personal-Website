@@ -43,25 +43,10 @@
     display: none;
     animation: fadeIn .2s;
     pointer-events: none;
+    font-family: 'Tahoma';
 }
 .image-container:hover .text-overlay {
     display: block;
 }
 
-#socials {
-    position: absolute;
-    top: 7%;
-    left: 3%;
-    background-color: rgba(0, 0, 0, 0.0);
-    color: white;
-    font-size: 16px;
-}
-#socials > .social{
-    margin: 0.5rem;
 
-}
-
-.social-link {
-    color:white; 
-    text-decoration:none;
-}
