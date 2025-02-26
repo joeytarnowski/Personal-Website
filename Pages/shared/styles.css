@@ -14,6 +14,7 @@ body {
     font-family: 'Tahoma';
     font-weight: lighter;
     text-align: center;
+    cursor:pointer;
 }
 .subtitle {
     color: white;
@@ -25,14 +26,28 @@ body {
 .headerbox{
     width:100%;
 }
-
-.div {
+.bodybox{
+    position:absolute;
+    top:28%;
+    width:100%;
+    height:70%;
+    overflow:scroll;
+    color:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.break{
+    visibility:none;
+    width:100%;
+}
+div {
     font-family: 'Tahoma';
 }
 
 #socials {
     position: absolute;
-    top: 7%;
+    top: 9%;
     left: 3%;
     background-color: rgba(0, 0, 0, 0.0);
     color: white;

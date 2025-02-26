@@ -1,15 +1,7 @@
-.subtitle{
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    font-size:28px;
-}
 .projects-container {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 30%;
-    left: 5%;
+    margin-left:5%;
     width: 90%;
     height: 70%;
     overflow: scroll;
